@@ -18,12 +18,13 @@ A full-stack **web application** for modern pet care and admin operations.
 
 ## 🚀 Quick Start (Cloning & Running)
 
-```bash
-# 1) Clone
+
+1) Clone
 git clone https://github.com/AnusaraKarunaratna/Petmedix
 cd Petmedix
 
-# 2) Install dependencies
+
+2) Install dependencies
 # If the project is monorepo (server + client), run installs in both:
 npm install
 # and/or
