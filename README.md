@@ -1,6 +1,3 @@
-# Petmedix
-Petmedix : A full-stack web application for pet owners and administrators.
-
 # PETMEDIX 🐾
 A full-stack **web application** for modern pet care and admin operations.
 
