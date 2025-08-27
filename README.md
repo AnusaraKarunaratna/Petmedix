@@ -25,24 +25,24 @@ cd Petmedix
 
 
 2) Install dependencies
-# If the project is monorepo (server + client), run installs in both:
+If the project is monorepo (server + client), run installs in both:
 npm install
-# and/or
+and/or
 cd client && npm install
 cd ../server && npm install
 
-# 3) Create environment files
-# See the .env examples below for server/client and ML service
+3) Create environment files
+See the .env examples below for server/client and ML service
 
-# 4) Start development
-# Option A: From root with concurrently (if configured)
+4) Start development
+Option A: From root with concurrently (if configured)
 npm run dev
 
-# Option B: Run each part separately
-# Terminal 1 (server)
+Option B: Run each part separately
+Terminal 1 (server)
 cd server && npm run dev
-# Terminal 2 (client)
+Terminal 2 (client)
 cd client && npm start
-# Terminal 3 (ML service, if separate)
+Terminal 3 (ML service, if separate)
 cd ml_service && python app.py
 
